@@ -26,6 +26,19 @@ export default function Home() {
             <a href="/blog" className="text-gray-800 hover:text-blue-600 transition-colors">Blog</a>
             <a href="mailto:sada@risks.today" className="text-gray-800 hover:text-blue-600 transition-colors">Contact</a>
         </div>
+        <div className="mt-8 text-sm text-gray-500">
+            <a
+                href="https://twitter.com/risks_today"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-600 transition-colors"
+            >
+                Follow me on Twitter
+            </a>
+        </div>
+        <footer className="mt-8 text-xs text-gray-400 text-center">
+            © {new Date().getFullYear()} Sada. All rights reserved.
+        </footer>
       </main>
     </>
   );
